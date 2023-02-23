@@ -35,6 +35,24 @@
 .blog{
     margin: 100px 0;
 }
-.blog-text{
+.blog-header{
+    margin: 80px;
     text-align: center;
+}
+.card{
+    border-radius: none!important;
+}
+.card-body{
+    background-color: whitesmoke;
+}
+.card-img-top{
+    width: auto;
+    height: 200px;
+}
+.card-sub{
+    margin: 15px 0;
+    font-size: 12px;
+}
+.card-span{
+    margin-left: 20px;
 }
