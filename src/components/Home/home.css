@@ -1,0 +1,94 @@
+.store-list{
+    margin: 60px 0;
+}
+.store-item{
+    width: 250px;
+    height: 280px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+.store-item-name{
+    text-align: center;
+    
+    
+}
+.store-item-name h5{
+    font-weight: 400;
+    font-size: 19px;
+}
+.store-item-name  h6 {
+    font-weight: 400;
+}
+
+.store-item-name button{
+    width: 200px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 1px;
+    background-color: #FF724A;
+}
+
+
+
+
+
+
+
+.banner{
+    margin: 20px 0 0 0;
+}
+.banner-layout{
+    position: relative;
+}
+
+.banner-img{
+    width: 520px;
+    height: auto;
+    /* position: relative; */
+}
+
+.banner-text{
+    position: absolute;
+    top: 70px;
+    right: 60px;
+}
+.banner-text-2{
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+}
+.banner-text-3{
+    position: absolute;
+    top: 70px;
+    left: 35px;
+}
+.banner-text-4{
+    position: absolute;
+    bottom: 70px;
+    left: 35px;
+}
+
+.blog{
+    margin: 100px 0;
+}
+.blog-header{
+    margin: 80px;
+    text-align: center;
+}
+.card{
+    border-radius: none!important;
+}
+.card-body{
+    background-color: whitesmoke;
+}
+.card-img-top{
+    width: auto;
+    height: 200px;
+}
+.card-sub{
+    margin: 15px 0;
+    font-size: 12px;
+}
+.card-span{
+    margin-left: 20px;
+}
