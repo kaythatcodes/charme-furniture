@@ -5,53 +5,60 @@ import image2 from '../Image/image2.jpeg'
 import image3 from '../Image/image3.jpeg'
 import Banner1 from '../Image/image4.jpeg'
 import Banner2 from '../Image/image5.jpeg'
+import item from '../Image/item.png'
+import item2 from '../Image/item2.png'
+import item3 from '../Image/item3.png'
+import item4 from '../Image/item4.png'
+
 const Home = () => {
   return (
     <div className='container'>
         {/* Shopping list starts here */}
-        <div className='shoppingList'>
+        <div className='store-list'>
             <div className='row'>
                 <div className='col-md-3'>
-                    <div className='card' >
-                        
-                        <img src={image}  alt={image} />
-                        
-                        
+                    <div className='store-item' >
+                        <img src={item}  className='item-img' alt={item} width={200} />                        
+                    </div>
+                    <div className='store-item-name'>
+                        <h5>Round Dining Table</h5>
+                        <h6>$201</h6>
+                        <button>Add to Cart</button>
                     </div>
                 </div>
                 <div className='col-md-3'>
-                    <div className='card text-bg-dark'>
-                        <img src={image} className='card-img' alt={image} />
-                        <div className='card-img-overlay'>
-                            <h5 className='card-title'>Card title</h5>
-                            <p className='card-text'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p className='card-text'><small>Last updated 3 mins ago</small></p>
-                        </div>
+                    <div className='store-item' >
+                        <img src={item2}  alt={item2} width={200} />                        
+                    </div>
+                    <div className='store-item-name'>
+                        <h5>Hospital Reception Table</h5>
+                        <h6>$349.0</h6>
+                        <button>Add to Cart</button>
                     </div>
                 </div>
                 <div className='col-md-3'>
-                    <div className='card text-bg-dark'>
-                        <img src={image} className='card-img' alt={image} />
-                        <div className='card-img-overlay'>
-                            <h5 className='card-title'>Card title</h5>
-                            <p className='card-text'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p className='card-text'><small>Last updated 3 mins ago</small></p>
-                        </div>
+                     <div className='store-item' >
+                        <img src={item3}  alt={item3} width={200} />                        
+                    </div>
+                    <div className='store-item-name'>
+                        <h5>High back lounge office c...</h5>
+                        <h6>$499.0</h6>
+                        <button>Add to Cart</button>
                     </div>
                 </div>
-                <div className='col-md-3'>
-                    <div className='card text-bg-dark'>
-                        <img src={image} className='card-img' alt={image} />
-                        <div className='card-img-overlay'>
-                            <h5 className='card-title'>Card title</h5>
-                            <p className='card-text'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p className='card-text'><small>Last updated 3 mins ago</small></p>
-                        </div>
+                 <div className='col-md-3'>
+                    <div className='store-item' >             
+                        <img src={item4}  alt={item4} width={200} />
+                    </div>
+                    <div className='store-item-name'>
+                        <h5>Bedroom Exclusive Mattress</h5>
+                        <h6>$199.0</h6>
+                        <button>Add to Cart</button>
                     </div>
                 </div>
             </div>
 
-        </div>
+        </div> 
         {/* banner starts here */}
         
         <div className='banner row'>
